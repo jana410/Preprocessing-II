@@ -503,6 +503,48 @@ table {
     border: 1px solid black;
   }
 }
+@media (max-width: 700px) {
+  .container-home .sign-me-up-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.container-home .sign-me-up-container .destination-content {
+  padding: 20px;
+}
+.container-home .sign-me-up-container .destination-content h4 {
+  font-size: 45px;
+}
+.container-home .sign-me-up-container .destination-content p {
+  font-size: 25px;
+}
+.container-home .sign-me-up-container .destination-content .btn-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container-home .sign-me-up-container .destination-content .btn-container .sign-me-up-btn {
+  width: 100%;
+}
+.container-home .sign-me-up-container .destination-content .btn-container .sign-me-up-btn a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: brown;
+}
+.container-home .sign-me-up-container .destination-content .btn-container .sign-me-up-btn a:hover {
+  cursor: pointer;
+  background: yellow;
+  color: black;
+  border: 1px solid black;
+}
 * {
   box-sizing: border-box;
 }
